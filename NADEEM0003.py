@@ -51,7 +51,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "Rana\n Branded Rajput\n Branded Rajput\n Branded Rajput \n Branded Rajput\n\n-----------------------------------------------\n\n➣ Codded By : Muhammad Nadeem\n➣ Facebook  : Muhammad Nadeem\n➣ Github    : https://github.com/Rananadeem5214\n➣ Whatsap   : 03082503426\n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "██████╗░░█████╗░███╗░░██╗░█████╗░\n ██╔══██╗██╔══██╗████╗░██║██╔══██╗\n██████╔╝███████║██╔██╗██║███████║\n██╔══██╗██╔══██║██║╚████║██╔══██║ \n██║░░██║██║░░██║██║░╚███║██║░░██║\n\n-----------------------------------------------\n\n➣ Codded By : Muhammad Nadeem\n➣ Facebook  : Muhammad Nadeem\n➣ Github    : https://github.com/Rananadeem5214\n➣ Whatsap   : 03082503426\n\n-----------------------------------------------" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
