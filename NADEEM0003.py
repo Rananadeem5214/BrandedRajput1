@@ -6,7 +6,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 hop.py")
+    os.system("python2 NADEEM0003.py")
 os.system("clear")
 """
 try:
@@ -17,7 +17,7 @@ except requests.exceptions.ConnectionError:
     print("")
     time.sleep(1)
     raw_input(" Press enter to try again ")
-    os.system("python2 new.py")"""
+    os.system("python2 NADEEM0003.py")"""
 if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
     os.system("apt update && apt install nodejs -y")
 if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
@@ -51,7 +51,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "██████╗░░█████╗░███╗░░██╗░█████╗░\n ██╔══██╗██╔══██╗████╗░██║██╔══██╗\n██████╔╝███████║██╔██╗██║███████║\n██╔══██╗██╔══██║██║╚████║██╔══██║ \n██║░░██║██║░░██║██║░╚███║██║░░██║\n\n-----------------------------------------------\n\n➣ Codded By : Muhammad Nadeem\n➣ Facebook  : Muhammad Nadeem\n➣ Github    : https://github.com/Rananadeem5214\n➣ Whatsap   : 03082503426\n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "██████╗░░█████╗░███╗░░██╗░█████╗░\n██╔══██╗██╔══██╗████╗░██║██╔══██╗\n██████╔╝███████║██╔██╗██║███████║\n██╔══██╗██╔══██║██║╚████║██╔══██║ \n██║░░██║██║░░██║██║░╚███║██║░░██║\n\n-----------------------------------------------\n\n➣ Codded By : Rana Nadeem Rajput\n➣ Facebook  : muhammad.nadeem.5214\n➣ Github    : https://github.com/Rananadeem5214\n➣ Whatsap   : 03082503426\n\n-----------------------------------------------" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
